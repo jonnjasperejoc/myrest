@@ -1,0 +1,12 @@
+include incs/header.pug    
+#content
+	h1 Login
+	form(method="POST", action="login")
+		label Username
+			input(type="text", name="email", placeholder="Username")
+		br
+		label Password	
+			input(type="password", name="password", placeholder="Password")
+		br
+		button(type="submit") Submit
+include incs/footer.pug
